@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Traditian';
+    src: url("../font/Traditian.ttf");
+}
+
+@font-face {
+    font-family: "Sarabande W00 Regular";
+    src: url("https://db.onlinewebfonts.com/t/c52418bff7a3031298f880144a48a8c2.eot");
+    src: url("https://db.onlinewebfonts.com/t/c52418bff7a3031298f880144a48a8c2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c52418bff7a3031298f880144a48a8c2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c52418bff7a3031298f880144a48a8c2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c52418bff7a3031298f880144a48a8c2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c52418bff7a3031298f880144a48a8c2.svg#Sarabande W00 Regular")format("svg");
+}
+
+/* BODY */
+.dark-bg{
+    background-color: #151515;
+}
+
+/* HEADER */
+.encabezado {
+    border-top: 20px solid #a1110c;
+    background-color: #1a1a1a;
+}
+
+.tamLogo {
+    width: 90px;
+}
+
+.colorJubilus {
+    text-decoration: none;
+    color: white;
+    font-family: Traditian, Arial;
+    font-size: 45px;
+}
+
+.colorJubilus:hover {
+    color: #d4d4d4;
+}
+
+.colorBoton {
+    background-color: #979797;
+}
+
+.li-link {
+    padding: 5px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.fuentesNav {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fuentesNav a:hover {
+    background-color: #a1110c;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.paddingLi {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* INDEX */
+
+/* MAIN */
+
+.fondo-index {
+    background-image: url("../img/Banners/franchise-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.tituloCentral {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.tituloCentral h1 {
+    font-size: 8rem;
+    font-family: Traditian, Arial;
+    text-align: center;
+}
+
+
+.tituloCentral h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: Sarabande W00 Regular, Arial;
+    text-align: center;
+}
+
+/* Productos */
+
+.productos-index {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid #000;
+}
+
+.sub-titulo {
+    border:none;
+    padding: 10px 20px;
+    background-color: #a1110c;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.tituloSection {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Sarabande W00 Regular, Arial;
+}
+
+.tarjeta {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121420;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    height: 100%;
+}
+
+.tarjeta img {
+    height: 50%;
+    max-width: 100%;
+}
+
+.tarjeta h3 {
+    text-transform: uppercase;
+    font-family: Sarabande W00 Regular, Arial;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.tarjeta p {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.tarjeta button {
+    background-color: #a1110c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tarjeta button:hover {
+    background-color: #79120e;
+}
+
+.tarjeta p {
+    font-size: 1.35rem;
+    margin: 3px;
+}
+
+.info-span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* FABRICAS */
+
+.fondoFabrica12 {
+    background-image: url("../img/Fabricas/homeFabric12.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #000;
+}
+
+.fondoPiloto {
+    background-image: url("../img/Fabricas/homePiloto.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #000;
+}
+
+.fondoParque {
+    background-image: url("../img/Fabricas/homeDelParque.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #000;
+}
+
+.btn-visitar {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 5px 20px;
+    border: 4px solid #a1110c;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: Sarabande W00 Regular, Arial;
+}
+
+/* FRANQUICIAS */
+
+.fondoFranquicia {
+    background-image: url("../img/Banners/home-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+/* CERVEZAS */
+
+/* MAIN */
+
+.fondo-cervezas {
+    background-image: url("../img/Banners/cervezas-14.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.largo {
+    width: 70%;
+    margin-bottom: 75px;
+}
+
+.btn-buscar {
+    border: 2px solid #a1110c;
+    color: #ffffff;
+}
+
+.btn-buscar:hover {
+    border: 2px solid #72100d;
+    color: #f8f8f8;
+}
+
+/* FABRICAS */
+
+.fondo-fabricas {
+    background-image: url("../img/Fabricas/fabrica.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contenedor-fabrica {
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    background-color: #3f2420;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #3f2420;
+    color: #ffffff;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-body {
+    position: relative;
+    padding: 30px;
+}
+
+.card-img {
+    position: absolute;
+    width: 50px;
+    height: auto;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+/* LOCALES */
+
+.fondo-locales {
+    background-image: url("../img/Banners/bannerStores.png");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #202020;
+    text-align: center;
+}
+
+.fondofooter {
+    width: 100%;
+    text-align: center;
+}
+
+.logofooter {
+    display: inline-block;
+    margin: 25px;
+    padding: 0 20px;
+}
+
+.logofooter img{
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+}
+
+span {
+    color: #b3adad;
+    margin: 5px;
+}
+
+.navbar-nav.nav {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar-nav.nav li {
+    margin-right: 10px;
+}
+
+
+.navbar-nav.nav li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.navbar-nav.nav li a:hover {
+    color: #a1110c;
+}

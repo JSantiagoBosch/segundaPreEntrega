@@ -365,6 +365,56 @@
     color: #ffffff;
 }
 
+.parrafo {
+    margin: 100px;
+    font-size: 2rem;
+    color: #ffffff
+}
+
+
+.slide-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tam-img-carousel {
+    width: 100vh;
+}
+
+/* TIENDA */
+
+.carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #a1110c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fondo-tienda {
+    background-image: url("../img/Banners/bannerContact.png");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* CONTACTO */
+
+.formContainer {
+    margin: 10%;
+    background-color: #121420;
+    padding: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
 
 /* FOOTER */
 footer {
